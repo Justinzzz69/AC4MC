@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="siticoneCircleButton1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="siticoneCircleButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 0</value>
+  </data>
+  <data name="siticoneCircleButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 44</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="siticoneCircleButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="siticoneCircleButton1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;siticoneCircleButton1.Name" xml:space="preserve">
+    <value>siticoneCircleButton1</value>
+  </data>
+  <data name="&gt;&gt;siticoneCircleButton1.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneCircleButton, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;siticoneCircleButton1.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="&gt;&gt;siticoneCircleButton1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 18pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 28</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>legit Autoclicker for MC</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 51</value>
+  </data>
+  <data name="panelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Name" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;panelMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="siticoneControlBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="siticoneControlBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 0</value>
+  </data>
+  <data name="siticoneControlBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 42</value>
+  </data>
+  <data name="siticoneControlBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox2.Name" xml:space="preserve">
+    <value>siticoneControlBox2</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox2.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneControlBox, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox2.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="siticoneControlBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="siticoneControlBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 0</value>
+  </data>
+  <data name="siticoneControlBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 42</value>
+  </data>
+  <data name="siticoneControlBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox3.Name" xml:space="preserve">
+    <value>siticoneControlBox3</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox3.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneControlBox, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox3.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="siticonePanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="siticonePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="siticonePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 48</value>
+  </data>
+  <data name="siticonePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Name" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Parent" xml:space="preserve">
+    <value>panelWindowTitle</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="siticoneControlBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="siticoneControlBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 0</value>
+  </data>
+  <data name="siticoneControlBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 42</value>
+  </data>
+  <data name="siticoneControlBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox1.Name" xml:space="preserve">
+    <value>siticoneControlBox1</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox1.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneControlBox, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox1.Parent" xml:space="preserve">
+    <value>panelWindowTitle</value>
+  </data>
+  <data name="&gt;&gt;siticoneControlBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CloseBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="CloseBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 0</value>
+  </data>
+  <data name="CloseBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 42</value>
+  </data>
+  <data name="CloseBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CloseBox.Name" xml:space="preserve">
+    <value>CloseBox</value>
+  </data>
+  <data name="&gt;&gt;CloseBox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneControlBox, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;CloseBox.Parent" xml:space="preserve">
+    <value>panelWindowTitle</value>
+  </data>
+  <data name="&gt;&gt;CloseBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelWindowTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelWindowTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>596, 48</value>
+  </data>
+  <data name="panelWindowTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelWindowTitle.Name" xml:space="preserve">
+    <value>panelWindowTitle</value>
+  </data>
+  <data name="&gt;&gt;panelWindowTitle.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;panelWindowTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelWindowTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PanelButtom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-13, 179</value>
+  </data>
+  <data name="PanelButtom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>630, 208</value>
+  </data>
+  <data name="PanelButtom.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PanelButtom.Name" xml:space="preserve">
+    <value>PanelButtom</value>
+  </data>
+  <data name="&gt;&gt;PanelButtom.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;PanelButtom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelButtom.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 85</value>
+  </data>
+  <data name="cbToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="cbToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbToggle.Text" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="&gt;&gt;cbToggle.Name" xml:space="preserve">
+    <value>cbToggle</value>
+  </data>
+  <data name="&gt;&gt;cbToggle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbToggle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbToggle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="sldCPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 120</value>
+  </data>
+  <data name="sldCPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 29</value>
+  </data>
+  <data name="sldCPS.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;sldCPS.Name" xml:space="preserve">
+    <value>sldCPS</value>
+  </data>
+  <data name="&gt;&gt;sldCPS.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTrackBar, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;sldCPS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sldCPS.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbCPS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCPS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbCPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 120</value>
+  </data>
+  <data name="lbCPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="lbCPS.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbCPS.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lbCPS.Name" xml:space="preserve">
+    <value>lbCPS</value>
+  </data>
+  <data name="&gt;&gt;lbCPS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbCPS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbCPS.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="LeftClick.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="Random.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <data name="cbShiftD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 75</value>
+  </data>
+  <data name="cbShiftD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 39</value>
+  </data>
+  <data name="cbShiftD.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbShiftD.Text" xml:space="preserve">
+    <value>Shift Disable</value>
+  </data>
+  <data name="&gt;&gt;cbShiftD.Name" xml:space="preserve">
+    <value>cbShiftD</value>
+  </data>
+  <data name="&gt;&gt;cbShiftD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbShiftD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbShiftD.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btBind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="btBind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 80</value>
+  </data>
+  <data name="btBind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 29</value>
+  </data>
+  <data name="btBind.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btBind.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btBind.Name" xml:space="preserve">
+    <value>btBind</value>
+  </data>
+  <data name="&gt;&gt;btBind.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneButton, Siticone.Desktop.UI, Version=2.0.9.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db</value>
+  </data>
+  <data name="&gt;&gt;btBind.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btBind.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="Bind.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>211, 17</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 126</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>CPS</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="mcoffen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mcoffen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 87</value>
+  </data>
+  <data name="mcoffen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 13</value>
+  </data>
+  <data name="mcoffen.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mcoffen.Text" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="&gt;&gt;mcoffen.Name" xml:space="preserve">
+    <value>mcoffen</value>
+  </data>
+  <data name="&gt;&gt;mcoffen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mcoffen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mcoffen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>596, 229</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>                                 </value>
+  </data>
+  <data name="&gt;&gt;LeftClick.Name" xml:space="preserve">
+    <value>LeftClick</value>
+  </data>
+  <data name="&gt;&gt;LeftClick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Random.Name" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="&gt;&gt;Random.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bind.Name" xml:space="preserve">
+    <value>Bind</value>
+  </data>
+  <data name="&gt;&gt;Bind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
