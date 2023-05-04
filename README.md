@@ -1,2 +1,2 @@
 # AC4MC
-legit AC for Minecraft
+External legit AC for Minecraft
